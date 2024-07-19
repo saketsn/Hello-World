@@ -19,5 +19,22 @@ public class Hello {
         if((secondTopScore<topScore) && (topScore<100)){
             System.out.println("Greater than second top score but less than 100");
         }
-    }
+
+        String makeOfCare = "Tata";
+        boolean isDomestic = makeOfCare =="Tata" ? false:true; // Ternary Operator demonstration.
+         if(!isDomestic){
+             System.out.println("This car is domestic to our country") ;}
+         String s= isDomestic ? "this car is domestic" : "this car is not domestic";
+         System.out.println(s);
+
+
+
+
+
+
+
+   }
 }
+
+
+
